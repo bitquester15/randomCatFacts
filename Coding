@@ -1,0 +1,10 @@
+# Заданный список строк
+strings = ["apple", "banana", "orange", "grape", "kiwi"]
+
+# Сортировка списка строк в алфавитном порядке
+sorted_strings = sorted(strings)
+
+# Вывод отсортированного списка на экран
+print("Отсортированный список строк:")
+for string in sorted_strings:
+    print(string)
